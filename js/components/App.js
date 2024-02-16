@@ -1,6 +1,9 @@
-import button from "./Button.js"
+import Assignments from "./Assignments.js";
+
 export default {
-    components: {
-        'app-button': button,
-    }
-};
+    components: { Assignments },
+
+    template: `
+        <assignments></assignments>    
+    `,
+}
